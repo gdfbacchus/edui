@@ -1,0 +1,71 @@
+{
+  "chain_id": "4018d7844c78f6a6c41c6a552b898022310fc5dec06da467ee7905a8dad512c8",
+  "my_accounts": [{
+      "id": "1.2.459605",
+      "membership_expiration_date": "1969-12-31T23:59:59",
+      "registrar": "1.2.459605",
+      "referrer": "1.2.459605",
+      "lifetime_referrer": "1.2.459605",
+      "network_fee_percentage": 2000,
+      "lifetime_referrer_fee_percentage": 8000,
+      "referrer_rewards_percentage": 0,
+      "name": "easy-dex",
+      "owner": {
+        "weight_threshold": 1,
+        "account_auths": [],
+        "key_auths": [[
+            "BTS7PwWf3mfYCWukJt38Tv2c1uEaao1YUnHheaNc1W9FDrNQxpaob",
+            1
+          ]
+        ],
+        "address_auths": []
+      },
+      "active": {
+        "weight_threshold": 1,
+        "account_auths": [],
+        "key_auths": [[
+            "BTS8fU4RRCKo3yvVYyFyQBLU2siydbmYui4Ya2LEaHbCtnkLRX3Fy",
+            1
+          ]
+        ],
+        "address_auths": []
+      },
+      "options": {
+        "memo_key": "BTS8fU4RRCKo3yvVYyFyQBLU2siydbmYui4Ya2LEaHbCtnkLRX3Fy",
+        "voting_account": "1.2.378443",
+        "num_witness": 0,
+        "num_committee": 0,
+        "votes": [],
+        "extensions": []
+      },
+      "statistics": "2.6.459605",
+      "whitelisting_accounts": [],
+      "blacklisting_accounts": [],
+      "whitelisted_accounts": [],
+      "blacklisted_accounts": [],
+      "cashback_vb": "1.13.2346",
+      "owner_special_authority": [
+        0,{}
+      ],
+      "active_special_authority": [
+        0,{}
+      ],
+      "top_n_control_flags": 0
+    }
+  ],
+  "cipher_keys": "90adf3a495650db54c494e3ec125e1f015b9aacd4ed1ccf4b346ca8550fec5d9ba46be95c9ef8fe95fd4d956c39e0e8a29c5a7b0f2d1a78d7a7bdb403297eb6bbe133f3d70eba17014403154f3290200d7239f5af730ec51d2431e10c96c48a2c3c4549736f00603e4677131d19185782e0c2e49ac32dd1876f8514314047a75db92ce3230f918b994f676c316642f390e2d80d176d81a3c1edc72bd88d088fb75d53f8277a865304cea52d14f8a73945090dd449f13169169b82091d3b9b598e2e31f0d0fce5f2f49657b5150c66514452502adc988997fa1df3205f3f4c191c2ee9e452a3a75c9688a3f060b28f409",
+  "extra_keys": [[
+      "1.2.459605",[
+        "BTS8fU4RRCKo3yvVYyFyQBLU2siydbmYui4Ya2LEaHbCtnkLRX3Fy",
+        "BTS7PwWf3mfYCWukJt38Tv2c1uEaao1YUnHheaNc1W9FDrNQxpaob"
+      ]
+    ]
+  ],
+  "pending_account_registrations": [],
+  "pending_witness_registrations": [],
+  "labeled_keys": [],
+  "blind_receipts": [],
+  "ws_server": "wss://dex.rnglab.org",
+  "ws_user": "",
+  "ws_password": ""
+}

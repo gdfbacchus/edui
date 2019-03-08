@@ -1,0 +1,103 @@
+@import "theme-template";
+
+// variables
+
+$light-text-color: #fff;
+$dark-text-color: #444;
+$primary-text-color: #ffffff;
+$secondary-text-color: darken($primary-text-color, 20%);
+$help-text-color: #8e8e8e;
+$link-text-color: #4A90E2;
+$error-text-color: #E3745B;
+
+$bg-color: #2a2a2a;
+$panel-bg-color: #3f3f3f;
+$panel-bg-color-transparent: transparent;
+
+$light-panel-bg-color: #6a6a6a;
+$super-light-panel-bg-color: lighten($light-panel-bg-color, 8%);
+$button-bg-color: #4A90E2;
+$button-bg-darkpurple-color: #250A5D;
+$secondary-button-bg-color: #999999;
+$input-background: lighten($bg-color, 8%);
+
+$alert-color: $error-text-color;
+$info-color: #A0D3E8;
+$success-color: #50D2C2;
+$warning-color: #FCAB53;
+$fee-color: $secondary-text-color;
+
+// Exchange colors
+$bid-color: #6BA583;
+$ask-color: #E3745B;
+$call-color: #BBBF2B;
+$positive-color: #258A14;
+$negative-color: #DB0000;
+$row-accent-color: #3C3C3C;
+$header-color: #484848;
+
+// Chat colors
+$chat-text-color: #000;
+
+// Account table view colors
+$account-header: #656565;
+$account-cells: transparent;
+$account-cells-transparent: transparent;
+
+$account-green: #91b569;
+$account-primarytext: white;
+$account-dimmed: #afafaf;
+$account-border: #323131;
+$account-background: #3f3f3f;
+
+.darkTheme {
+  @include theme(
+                  $primary-text-color,
+                  $help-text-color,
+                  $bg-color,
+                  $dark-text-color,
+                  $link-text-color,
+                  $light-text-color,
+                  $secondary-text-color,
+                  $success-color,
+                  $info-color,
+                  $warning-color,
+                  $alert-color,
+                  $super-light-panel-bg-color,
+                  $panel-bg-color,
+                  $panel-bg-color-transparent,
+                  $button-bg-color,
+                  $button-bg-darkpurple-color,
+                  $secondary-button-bg-color,
+                  $fee-color,
+                  $bid-color,
+                  $ask-color,
+                  $call-color,
+                  $light-panel-bg-color,
+                  $positive-color,
+                  $negative-color,
+                  $row-accent-color,
+                  $header-color,
+                  $chat-text-color,
+                  $input-background,
+                  $account-header,
+                  $account-cells,
+                  $account-cells-transparent,
+                  $account-green,
+                  $account-primarytext,
+                  $account-dimmed,
+                  $account-border,
+                  $account-background
+  );
+
+
+  ul.button-group.segmented.login-tabs{
+    > li.is-active > a {
+      background: #4b5158;
+      color: $primary-text-color;
+    }
+  }
+
+
+
+}

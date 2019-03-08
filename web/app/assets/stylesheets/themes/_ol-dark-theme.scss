@@ -1,0 +1,289 @@
+@import "theme-template";
+
+// variables
+@import "theme-template";
+
+// variables
+
+$light-text-color: #fff;
+$dark-text-color: #444;
+$primary-text-color: #e0e0e0;
+$secondary-text-color: darken($primary-text-color, 20%);
+$help-text-color: darken($primary-text-color,50%);
+$link-text-color: #4A90E2;
+$error-text-color: #E3745B;
+
+$bg-color: #191A1F;
+$panel-bg-color: #2C2E37;
+$panel-bg-color-transparent: transparent;
+$light-panel-bg-color: #353742;
+$super-light-panel-bg-color: lighten($light-panel-bg-color, 8%);
+$button-bg-color: #4A90E2;
+$button-bg-darkpurple-color: #250A5D;
+$secondary-button-bg-color: #546979;
+$input-background: #1d222c;
+
+$alert-color: $error-text-color;
+$info-color: #4A90E2;
+$success-color: #18BC9C;
+$warning-color: #FCAB53;
+$fee-color: $secondary-text-color;
+
+// Exchange colors
+$bid-color: #50D2C2;
+$ask-color: #E3745B;
+$call-color: #BBBF2B;
+$positive-color: #91b569;
+$negative-color: #E1424A;
+$row-accent-color: #3C3C3C;
+$header-color: #250A5D;
+
+// Chat colors
+$chat-text-color: #000;
+
+// Account table view colors
+$account-header: #27384B;
+$account-cells: transparent;
+$account-cells-transparent: transparent;
+$account-green: #91b569;
+$account-primarytext: white;
+$account-dimmed: #606060;
+$account-border: #525050;
+$account-background: $bg-color;
+
+.olDarkTheme {
+  @include theme(
+                  $primary-text-color,
+                  $help-text-color,
+                  $bg-color,
+                  $dark-text-color,
+                  $link-text-color,
+                  $light-text-color,
+                  $secondary-text-color,
+                  $success-color,
+                  $info-color,
+                  $warning-color,
+                  $alert-color,
+                  $super-light-panel-bg-color,
+                  $panel-bg-color,
+                  $panel-bg-color-transparent,
+                  $button-bg-color,
+                  $button-bg-darkpurple-color,
+                  $secondary-button-bg-color,
+                  $fee-color,
+                  $bid-color,
+                  $ask-color,
+                  $call-color,
+                  $light-panel-bg-color,
+                  $positive-color,
+                  $negative-color,
+                  $row-accent-color,
+                  $header-color,
+                  $chat-text-color,
+                  $input-background,
+                  $account-header,
+                  $account-cells,
+                  $account-cells-transparent,
+                  $account-green,
+                  $account-primarytext,
+                  $account-dimmed,
+                  $account-border,
+                  $account-background
+  );
+
+  ul.button-group.segmented.login-tabs{
+    > li.is-active > a {
+      background: #27384B;
+      color: $primary-text-color;
+    }
+  }
+
+
+
+}
+
+
+$light-text-color: #fff;
+$dark-text-color: #444;
+$primary-text-color: #e0e0e0;
+$secondary-text-color: darken($primary-text-color, 20%);
+$help-text-color: darken($primary-text-color,50%);
+$link-text-color: #4A90E2;
+$error-text-color: #E3745B;
+
+$bg-color: #191A1F;
+$panel-bg-color: #2C2E37;
+$panel-bg-color-transparent: transparent;
+$light-panel-bg-color: #353742;
+$super-light-panel-bg-color: lighten($light-panel-bg-color, 8%);
+$button-bg-color: #4A90E2;
+$button-bg-darkpurple-color: #250A5D;
+$secondary-button-bg-color: #546979;
+$input-background: #1d222c;
+
+$alert-color: $error-text-color;
+$info-color: #4A90E2;
+$success-color: #18BC9C;
+$warning-color: #FCAB53;
+$fee-color: $secondary-text-color;
+
+// Exchange colors
+$bid-color: #50D2C2;
+$ask-color: #E3745B;
+$call-color: #BBBF2B;
+$positive-color: #91b569;
+$negative-color: #E1424A;
+$row-accent-color: #3C3C3C;
+$header-color: #250A5D;
+
+// Chat colors
+$chat-text-color: #000;
+
+// Account table view colors
+$account-header: #27384B;
+$account-cells: transparent;
+$account-cells-transparent: transparent;
+$account-green: #91b569;
+$account-primarytext: white;
+$account-dimmed: #606060;
+$account-border: #525050;
+$account-background: $bg-color;
+
+.olDarkTheme {
+  @include theme(
+                  $primary-text-color,
+                  $help-text-color,
+                  $bg-color,
+                  $dark-text-color,
+                  $link-text-color,
+                  $light-text-color,
+                  $secondary-text-color,
+                  $success-color,
+                  $info-color,
+                  $warning-color,
+                  $alert-color,
+                  $super-light-panel-bg-color,
+                  $panel-bg-color,
+                  $panel-bg-color-transparent,
+                  $button-bg-color,
+                  $button-bg-darkpurple-color,
+                  $secondary-button-bg-color,
+                  $fee-color,
+                  $bid-color,
+                  $ask-color,
+                  $call-color,
+                  $light-panel-bg-color,
+                  $positive-color,
+                  $negative-color,
+                  $row-accent-color,
+                  $header-color,
+                  $chat-text-color,
+                  $input-background,
+                  $account-header,
+                  $account-cells,
+                  $account-cells-transparent,
+                  $account-green,
+                  $account-primarytext,
+                  $account-dimmed,
+                  $account-border,
+                  $account-background
+  );
+
+  ul.button-group.segmented.login-tabs{
+    > li.is-active > a {
+      background: #483e63;
+      color: $primary-text-color;
+    }
+  }
+
+  div.grid-block.main-wrapper-content {
+    padding-top: 0px;
+  }
+
+  //div.newsBanner {
+  //  background-color: #5F00AD;
+  //  //min-height: 40px;
+  //  text-align: center;
+  //  font-weight: 700;
+  //  font-size: 14pt;
+  //  margin: 0 auto;
+  //  padding: 12px 5px;
+  //  min-width: 60%;
+  //  max-width: 60%;
+  //}
+
+  div.newsBanner2 {
+    background-color: #5F00AD;
+    //min-height: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14pt;
+    margin: 0 auto;
+    padding: 12px 5px;
+    min-width: 60%;
+    max-width: 60%;
+  }
+
+  //div.newsBanner {
+  //  background-color: #5F00AD;
+  //  //height: 50px;
+  //  overflow: hidden;
+  //  position: relative;
+  //  font-weight: 700;
+  //  font-size: 14pt;
+  //  margin: 0 auto;
+  //
+  //  padding: 12px 5px;
+  //  min-width: 60%;
+  //  max-width: 60%;
+  //}
+
+.newsBanner {
+  //height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+  .newsBanner div {
+    //font-size: 3em;
+    color: white;
+    //position: absolute;
+    width: 150%;
+    height: 100%;
+    margin: 0;
+    //line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);
+    transform:translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: example1 15s linear infinite;
+    -webkit-animation: example1 15s linear infinite;
+    animation: example1 15s linear infinite;
+  }
+  /* Move it (define the animation) */
+  @-moz-keyframes example1 {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+  }
+  @-webkit-keyframes example1 {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+  }
+  @keyframes example1 {
+    0%   {
+      -moz-transform: translateX(100%); /* Firefox bug fix */
+      -webkit-transform: translateX(100%); /* Firefox bug fix */
+      transform: translateX(100%);
+    }
+    100% {
+      -moz-transform: translateX(-100%); /* Firefox bug fix */
+      -webkit-transform: translateX(-100%); /* Firefox bug fix */
+      transform: translateX(-100%);
+    }
+  }
+
+
+
+}
+

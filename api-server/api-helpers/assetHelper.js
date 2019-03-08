@@ -1,0 +1,4 @@
+
+var getAssetNameBySymbol = function(assetSymbol) {
+
+}

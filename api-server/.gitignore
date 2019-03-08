@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.npmrc
+npm-debug.log
+node_modules
+dist
+
+/build-api
+/build-api-test
+
+config/prod/api-server.config.js
+config/staging/api-server.config.js
+
+api-server.config.js

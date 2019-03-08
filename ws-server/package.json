@@ -1,0 +1,36 @@
+{
+  "name": "UI",
+  "version": "1.0.0",
+  "description": "Advanced wallet interface for the BitShares financial blockchain.",
+  "homepage": "",
+  "author": "",
+  "license": "",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "aes256": "^1.0.3",
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "bookshelf": "^0.12.1",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "js-sha256": "^0.2.3",
+    "knex": "^0.14.3",
+    "lodash": "^3.10.1",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.4.2",
+    "sha256": "^0.2.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "es6-promise": "^3.0.2",
+    "eslint": "^2.11.1",
+    "nodemon": "^1.17.2"
+  }
+}

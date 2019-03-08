@@ -1,0 +1,50 @@
+USE THAT USER:
+	u: easydex
+	p: 78$1sdpc!A
+
+
+I. UI start/stop
+
+	1. Check if Forever processes are running:
+			forever list
+			
+	2. START:
+		2.1 Go to:
+			cd /var/www/vhosts/easydex.net/dex-ui/
+		
+		2.2	Start script:
+			NODE_ENV=production forever start prod-server.js
+
+	3.STOP:
+		3.1 List Forever processes:
+			forever list
+			
+		3.2 Stop script by id:
+			forever stop [id]
+			
+		3.3 Stop all processes(that will stop API as well):
+			forever stopall
+
+============================================================================
+
+II. API start/stop
+
+	1. Check if Forever processes are running:
+			forever list
+			
+	2. START:
+		2.1 Go to:
+			cd /var/www/vhosts/easydex.net/api/
+		
+		2.2	Start script:
+			NODE_ENV=production forever start app.js
+
+	3.STOP:
+		3.1 List Forever processes:
+			forever list
+			
+		3.2 Stop script by id:
+			forever stop [id]
+			
+		3.3 Stop all processes(that will stop UI as well):
+			forever stopall

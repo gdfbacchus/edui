@@ -1,0 +1,7 @@
+login in console by user easydex
+navigate to
+cd /var/www/vhosts/easydex.net/api/python
+then run it
+./run.sh
+
+That's it

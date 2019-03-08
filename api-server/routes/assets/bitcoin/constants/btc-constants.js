@@ -1,0 +1,14 @@
+
+module.exports.ADDRESS = {
+
+};
+module.exports.FEES = {
+  MIN_TX_FEE: 0.00003000,
+  MIN_TO_WITHDRAW: 0.00100000
+};
+module.exports.WALLETNOTIFY = {
+  //POLL_INTERVAL: 60000,
+  POLL_INTERVAL: 60000,
+  MIN_CONFORMATIONS: 3,
+  ONE_BITCOIN_SATS: 100000000
+};

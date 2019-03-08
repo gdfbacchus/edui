@@ -1,0 +1,38 @@
+.login .horiz-tabs {
+    width: 100%;
+}
+
+.login .horiz-tabs>li {
+    width: 33.3%;
+}
+
+.login>.grid-block{
+    width: 700px;
+}
+
+.login .button {
+    font-size: 1.1rem;
+}
+
+.login {
+    margin: 1.5rem 0;
+}
+
+.login .grid-content {
+    padding: 0;
+}
+
+.login .tab-content {
+    padding: 0 1.5rem 1rem 1.5rem;
+    text-align: left;
+}
+
+.olDarkTheme .panel.login .grid-content{
+    //background-color: #27384B !important;
+    background-color: #7560B0  !important;
+    background-color: rgb(72, 62, 99) !important;
+}
+
+.darkTheme .panel.login .grid-content {
+    background-color: #4b5158 !important;
+}

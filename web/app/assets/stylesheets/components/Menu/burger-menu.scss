@@ -1,0 +1,165 @@
+.burger-menu {
+  @mixin transition($x){
+    transition: $x;
+    -webkit-transition: $x;
+    -moz-transition: $x;
+    -ms-transition: $x;
+    -o-transition: $x;
+  }
+  @mixin transform($transforms) {
+    -moz-transform: $transforms;
+    -o-transform: $transforms;
+    -ms-transform: $transforms;
+    -webkit-transform: $transforms;
+    transform: $transforms;
+  }
+  @mixin border-box() {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+  }
+
+  display:block;
+  z-index: 101;
+  $menu-width:250px;
+
+  >div {
+    position:absolute;
+    z-index:101;
+    top:0;
+    width:$menu-width;
+    height:100%;
+    @include border-box;
+    @include transition(-webkit-transform ease 250ms);
+    @include transition(transform ease 250ms);
+
+    &.left {
+      //background:#4A90E2 ;
+      //background: #6a6a6a;
+      background: #1d222c;
+      left:$menu-width*-1;
+    }
+
+    &.visible.left {
+      @include transform(translate3d($menu-width, 0, 0));
+      position: fixed;
+    }
+
+    >.burger-menu-item {
+      float:left;
+      width:100%;
+      margin:0;
+      padding:10px 15px;
+      //border-bottom:solid 1px #555;
+      border-bottom: solid 1px  rgba(128, 128, 128, 0.45);
+      cursor:pointer;
+      @include border-box;
+      //color:#B0B0B0;
+      color:#FFF;
+
+      &:hover {
+        background-color: #353742;
+      }
+    }
+  }
+}
+
+.left-nav-bar-wrapper{
+  position: absolute;
+  z-index: 102;
+}
+
+.burger-icon > div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+
+}
+div.right-burger-label {
+  width: 35px;
+  height: 25px;
+  background-color: transparent !important;
+  margin: 0;
+  position: relative;
+  left: 40px;
+  top: -35px;
+  color: #0e8df2;
+}
+div.burger-icon {
+  position: relative;
+  top: 5px;
+  left: 8px;
+  cursor: pointer;
+  width: 38px;
+}
+
+#closeBurgerMenu{
+  color: #4a90e2;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2em;
+  line-height: .5;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.first-burger-menu-item  {
+  margin-top: 34px !important;
+}
+
+.left-nav-support-link{
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  border-bottom: solid 1px rgba(128, 128, 128,0.45);
+}
+
+.burger-menu-logo{
+  position: relative;
+  top: 12px;
+  left: 14px;
+}
+
+.burger-menu-item .grp-menu-item.header-balance a{
+  padding:0;
+}
+
+.burger-menu-item div div a.create-account{
+  color: white;
+  padding: 0;
+  background-color: transparent;
+}
+.burger-menu-item a.button.create-account{
+  color: white;
+  padding: 0;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+div.burger-menu-item div a[data-class="unlock-tooltip"]{
+  padding: 0;
+}
+
+div.burger-menu-item div div div div a.button{
+  padding: 0;
+  background-color: transparent;
+}
+div.burger-menu-item div div div a.button{
+  padding: 0;
+  background-color: transparent;
+}
+
+div.visible.left div.action-sheet-container div div a{
+  background-color: transparent;
+}
+
+div.visible.left div.action-sheet-container{
+  left: 50px !important;
+  top: 41px !important;
+}
+div.visible.left div.action-sheet-container div div a:hover{
+  background-color: transparent !important;
+}

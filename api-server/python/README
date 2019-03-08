@@ -1,0 +1,13 @@
+login in console by user easydex
+navigate to
+cd /var/www/vhosts/easydex.net/api/python
+then run it
+
+./run.sh
+It will start ONLY processes it's not running till now
+
+./run.sh restart
+It will restart ALL processes
+
+./run.sh restart bitshares
+It will restart specific process e.g. bitshares
