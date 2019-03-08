@@ -5,10 +5,10 @@ function server_set(type) {
         return [
           /*{url: "wss://fake.automatic-selection.com", location: "Choose closest automatically"},
           {url: "wss://kc-us-dex.xeldal.com/ws", location: "Kansas City, USA"},
-          {url: "wss://fake.automatic-selection.com", location: "Choose closest automatically"},
+          {url: "wss://fake.automatic-selection.com", location: "Choose closest automatically"},*/
           {url: "wss://api.bts.network", location: "East Coast, USA"},
-          {url: "wss://dexnode.net/ws", location: "Dallas, USA"},
-          {url: "wss://la.dexnode.net/ws", location: "LA, USA"},
+          //{url: "wss://dexnode.net/ws", location: "Dallas, USA"},
+          //{url: "wss://la.dexnode.net/ws", location: "LA, USA"},
           {url: "wss://api.bts.mobi/ws", location: "VA, USA"},
           {url: "wss://api.btsxchng.com", location: "Global (Asia Pacific (Singapore) / US East (N. Virginia) / EU (London))"},
           {url: "wss://us.nodes.bitshares.ws",location: "U.S. West Coast - BitShares Infrastructure Program"},
@@ -22,17 +22,17 @@ function server_set(type) {
           //{url: "wss://bitshares.nu/ws", location: "Stockholm, Sweden"},
           {url: "wss://api-ru.bts.blckchnd.com", location: "Moscow, Russia"},
           //{url: "wss://btsws.roelandp.nl/ws", location: "Finland"},
-          //{url: "wss://eu.nodes.bitshares.ws", location: "Central Europe - BitShares Infrastructure Program"},
+          {url: "wss://eu.nodes.bitshares.ws", location: "Central Europe - BitShares Infrastructure Program"},
          // {url: "wss://api.bitshares.bhuz.info/ws", location: "Europe"},
-          //{url: "wss://btsza.co.za:8091/ws", location: "Cape Town, South Africa"},
+          {url: "wss://btsza.co.za:8091/ws", location: "Cape Town, South Africa"},
           //{url: "wss://japan.bitshares.apasia.tech/ws", location: "Tokyo, Japan"},
           //{url: "wss://ws.gdex.io", location: "Japan"},
           //{url: "wss://ws.hellobts.com/", location: "Japan"},
           //{url: "wss://bts-seoul.clockwork.gr/", location: "Seoul, Korea"},
-          {url: "wss://bitshares.apasia.tech/ws", location: "Bangkok, Thailand"},
+          //{url: "wss://bitshares.apasia.tech/ws", location: "Bangkok, Thailand"},
           //{url: "wss://api.btsgo.net/ws", location: "Singapore"},
           //{url: "wss://kimziv.com/ws", location: "Singapore"},
-          //{url: "wss://sg.nodes.bitshares.ws",location: "Singapore - BitShares Infrastructure Program"},
+          {url: "wss://sg.nodes.bitshares.ws",location: "Singapore - BitShares Infrastructure Program"},
           //{url: "wss://ws.winex.pro", location: "Singapore"},
           //{url: "wss://node.btscharts.com/ws", location: "Hong Kong"},
           //{url: "wss://bitshares.cyberit.io/", location: "Hong Kong"},
@@ -47,7 +47,7 @@ function server_set(type) {
           //{url: "wss://bts.open.icowallet.net/ws", location: "Hangzhou, China"},
           //{url: "wss://bts.to0l.cn:4443/ws", location: "China"},
           //{url: "wss://fake.automatic-selection.com", location: "Choose closest automatically"},
-          {url: "wss://chicago.bitshares.apasia.tech/ws", location: "Northern America - U.S.A. - Chicago"},
+          /*{url: "wss://chicago.bitshares.apasia.tech/ws", location: "Northern America - U.S.A. - Chicago"},
           {url: "wss://netherlands.bitshares.apasia.tech/ws", location: "Northern Europe - Netherlands - Amsterdam"},
           {url: "wss://france.bitshares.apasia.tech/ws", location: "Western Europe - France - Paris"},
           {url: "wss://status200.bitshares.apasia.tech/ws", location: "Northern America - U.S.A. - New Jersey"},
@@ -57,7 +57,7 @@ function server_set(type) {
           {url: "wss://dallas.bitshares.apasia.tech/ws", location: "Northern America - U.S.A. - Dallas"},
           {url: "wss://seattle.bitshares.apasia.tech/ws", location: "Northern America - U.S.A. - Seattle"},
           {url: "wss://valley.bitshares.apasia.tech/ws", location: "Northern America - U.S.A. - Silicone Valley"},
-          {url: "wss://japan.bitshares.apasia.tech/ws", location: "Southeastern Asia - Japan - Tokyo"},
+          {url: "wss://japan.bitshares.apasia.tech/ws", location: "Southeastern Asia - Japan - Tokyo"}, */
 
             
           // Testnet
