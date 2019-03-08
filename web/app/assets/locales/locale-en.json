@@ -1770,9 +1770,9 @@
     "text_3": "Please use <a href='https://wallet.bitshares.org' target='blank' rel='noopener noreferrer'>https://wallet.bitshares.org</a> from now on, your existing credentials will let you login there as well."
   },
   "news" :{
-    "scrolling_banner_txt_1": "Ethereum (EASYDEX.ETH) gateway has launched!",
+    "scrolling_banner_txt_1": "Easysocial testnet has launched!",
     "scrolling_banner_txt_2": "Litecoin (EASYDEX.LTC) gateway has launched!",
-    "scrolling_banner_txt_3": "WLS (EASYDEX.WLS) gateway has launched!"
+    "scrolling_banner_txt_3": "Join the testnet at https://easysocial.life"
 
   }
 }
