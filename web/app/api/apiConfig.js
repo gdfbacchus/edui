@@ -3,28 +3,32 @@ function server_set(type) {
 
     if (type == "urls") {
         return [
+          {url: "wss://na.openledger.info/ws", location: "Quebec, Canada"},
+          {url: "wss://eu.openledger.info/ws", location: "Berlin, Germany"},
+          {url: "wss://openledger.hk/ws", location: "Hong Kong"},
+          {url: "wss://bitshares.openledger.info/ws", location: "Nuremberg, Germany"},
           /*{url: "wss://fake.automatic-selection.com", location: "Choose closest automatically"},
           {url: "wss://kc-us-dex.xeldal.com/ws", location: "Kansas City, USA"},
           {url: "wss://fake.automatic-selection.com", location: "Choose closest automatically"},*/
           {url: "wss://api.bts.network", location: "East Coast, USA"},
           //{url: "wss://dexnode.net/ws", location: "Dallas, USA"},
           //{url: "wss://la.dexnode.net/ws", location: "LA, USA"},
-          {url: "wss://api.bts.mobi/ws", location: "VA, USA"},
+          /* {url: "wss://api.bts.mobi/ws", location: "VA, USA"},
           {url: "wss://api.btsxchng.com", location: "Global (Asia Pacific (Singapore) / US East (N. Virginia) / EU (London))"},
           {url: "wss://us.nodes.bitshares.ws",location: "U.S. West Coast - BitShares Infrastructure Program"},
           {url: "wss://bts-api.lafona.net/ws", location: "USA"},
           {url: "wss://blockzms.xyz/ws", location: "USA"},
-          {url: "wss://dex.rnglab.org", location: "Netherlands"}, */
+          {url: "wss://dex.rnglab.org", location: "Netherlands"}, 
           {url: "wss://api.bts.blckchnd.com", location: "Falkenstein, Germany"},
-          {url: "wss://node.market.rudex.org", location: "Germany"},
+          {url: "wss://node.market.rudex.org", location: "Germany"}, */
           //{url: "wss://bitshares.crypto.fans/ws", location: "Munich, Germany"},
           //{url: "wss://bts.proxyhosts.info/wss", location: "Germany"},
           //{url: "wss://bitshares.nu/ws", location: "Stockholm, Sweden"},
-          {url: "wss://api-ru.bts.blckchnd.com", location: "Moscow, Russia"},
+          //{url: "wss://api-ru.bts.blckchnd.com", location: "Moscow, Russia"},
           //{url: "wss://btsws.roelandp.nl/ws", location: "Finland"},
           {url: "wss://eu.nodes.bitshares.ws", location: "Central Europe - BitShares Infrastructure Program"},
          // {url: "wss://api.bitshares.bhuz.info/ws", location: "Europe"},
-          {url: "wss://btsza.co.za:8091/ws", location: "Cape Town, South Africa"},
+         // {url: "wss://btsza.co.za:8091/ws", location: "Cape Town, South Africa"},
           //{url: "wss://japan.bitshares.apasia.tech/ws", location: "Tokyo, Japan"},
           //{url: "wss://ws.gdex.io", location: "Japan"},
           //{url: "wss://ws.hellobts.com/", location: "Japan"},
@@ -66,7 +70,7 @@ function server_set(type) {
           },
           {
             url: "wss://testnet.nodes.bitshares.ws", location: "TESTNET - BitShares Infrastructure Program"
-          }
+          },
         ];
     }
 
