@@ -1424,7 +1424,7 @@
     "choose_deposit": "Please select the currency you would like to deposit",
     "choose_withdraw": "Please select the currency you would like to withdraw",
     "company_name": "EASYDEX LTD",
-    "bank_swift": "SWIFT/BIG: PIRBBGSF",
+    "bank_swift": "Fiat deposits have been",
     "address_1_country": "Bulgaria",
     "address_2_location": "Menenkyovo 4482",
     "address_3_addr": "Dvadeset i chetvurta 25",
@@ -1433,7 +1433,7 @@
     "support_mail": "support@easydex.net",
     "content": {
       "USD": {
-        "bank_IBAN": "IBAN: BG25PIRB73881606365550",
+        "bank_IBAN": "temporarily suspended.",
         "verified": {
           "deposit_text_1": "Verified users may deposit up to $10,000. Funds can be deposited via wire (SWIFT/BIG) transfer using the bank details below.",
           "deposit_text_2_0": "All transfers MUST include your Bitshares username in the memo (description,reference, reason or message) field.",
@@ -1452,7 +1452,7 @@
         }
       },
       "EUR": {
-        "bank_IBAN": "IBAN: BG63PIRB73881606365545",
+        "bank_IBAN": "temporarily suspended.",
         "verified": {
           "deposit_text_1": "Verified users may deposit up to €10.000. Funds can be deposited via wire (SWIFT) transfer using the bank details below.",
           "deposit_text_2_0": "All transfers MUST include your Bitshares username in the memo (description,reference, reason or message) field.",
